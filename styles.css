@@ -1,0 +1,385 @@
+
+  
+  /*main*/
+
+  body{
+    text-align: center;
+  }
+  p{
+    color: #fff;
+    margin-bottom: 0;
+    font-family: 'Open Sans', sans-serif;
+    /* font-size: 20px; */
+  }
+  a {
+    color: #000;
+    text-decoration: none;
+    font-family: 'DM Mono', monospace;
+  }
+  a:hover{
+    text-decoration: none;
+    color: #3f3f44;
+  }
+
+  
+   /*headings*/
+
+   .big-heading{
+    font-family: 'Russo One', sans-serif;
+    font-size: 2vw;
+    line-height: 1;
+  }
+
+  #bh{
+    font-weight: bolder;
+    font-size: 4rem;
+    line-height: 1.5;
+    font-family: 'Ubuntu Mono', monospace;
+    padding: 5% 15% 5%;
+
+  }
+
+
+/*container*/
+
+.container-section{
+  padding:1% 3%;
+}
+
+
+/*sections*/
+
+.colored-part{
+  background-color:#ff4c68;
+  color: ivory;
+}
+ .white{
+  background-color:#fff;
+}
+
+/*navigation bar*/
+
+.navbar {
+  padding: 0 0 1.5rem;
+  margin-bottom: 1px;
+}
+.navbar-brand {
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item {
+  padding: 0px 15px;
+}
+.nav-link {
+  font-size: 1.4vw;
+  font-family:'Scada', sans-serif;
+}
+
+.dropdown-item{
+  font-size: 1.2vw;
+}
+
+
+
+/*download button*/
+
+.download-button{
+  margin: 5% 3% 5% 0%;
+}
+
+
+
+/*title-section*/
+
+#title {
+  color: #fff;
+  text-align: left;
+}
+#title .container-fluid {
+  padding: 2% 15% 7%;
+}
+
+
+/*img*/
+
+.image{
+  width: 70%;
+  transform: rotate(20deg);
+  border-radius: 20px;
+  
+}
+
+
+/* Features Section */
+
+
+
+
+/* section-4 */
+  
+#testimonials{ 
+  background-color: #ff4c68 ; 
+  margin-top: 70px;
+  margin-bottom: 70px;
+} 
+
+.testimonial-text {
+  font-size: 1.5vw;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 10px;
+}
+
+/*press*/
+
+#press {
+  background-color:#ff4c68;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+  
+#pricing {
+  padding: 0.5% 1% 2%;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 1%;
+}
+#wid{
+margin-left: 0px;
+margin-right: 0px;
+}
+@media (max-width: 1028px) {
+  
+  #title {
+    text-align: center;
+  }
+
+  .image {
+    position: static;
+    transform: rotate(0);
+  }
+
+  .navbar {
+    padding: 0 0 8rem;
+  }
+  
+  #myButton{
+    font-size: 5px;
+  }
+  .cards{
+    width: 100%;
+    /* margin-left: 25%; */
+  }
+  #baclr{
+    margin: 50px 20px 50px;
+  }
+  #wrapperi {
+    margin: 18vw 15vw 13vw 41.5vw;
+}
+
+#searchi{
+  margin-top: 3.8vw;
+}
+  
+}
+
+/* @media (max-width:700px){
+  .bacolr{
+    margin: 50px 20px 50px;
+  }
+} */
+
+
+/* section1*/
+.myButton {
+	box-shadow: 0px 0px 0px 0px #fff;
+	background-color:transparent;
+	border-radius:10px;
+	display:inline-block;
+	cursor:pointer;
+	color:#fff;
+	font-family: 'Balsamiq Sans', cursive;
+	font-size:1.5vw;
+	padding:20px 10px;
+    text-decoration:none;
+    margin: 5% 5% 5% 0%;
+    width: 19%;
+}
+.myButton:hover {
+    background-color:#fff;
+    color: #000;
+}
+
+
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+/* search bar */
+.bacolr{
+  background-color:#ef8172 ;
+  margin: 70px 60px 70px;
+  border-radius:20px;
+  
+}
+.searchText{
+  padding-top: 8vw;
+  color: #fff;
+}
+
+.wrapper{
+  position:absolute;
+  margin:15vw 15vw 15vw 22vw;
+  transform: translate(-50%,-50%);
+  background: rgba(0,0,0,0.6);
+  max-width: 40%;
+  width: 100%;
+  padding: 1.5vw;
+  border-radius: 5px;
+  display:flex;
+  justify-content: space-between;
+}
+
+.wrapper .input{
+  width: 30vw;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 0.8vw;
+  font-weight: bold;
+  font-size: 1.5vw;
+}
+
+.searchbtn{
+  background:#fff;
+  width: 4vw;
+  border-radius: 5px;
+  position: relative;
+  cursor: pointer;
+  margin-left: 2vw;
+}
+
+.searchicon{
+  position: absolute;
+  margin-right: 4vw;
+  margin-top: 2vw;
+  transform: translate(-50%,-50%);
+  font-size: 1.8vw;
+}
+ 
+#pad{
+  margin-bottom: 5px;
+}
+/* section 3 */
+h2 {
+  width: 100%; 
+  text-align: center; 
+  border-bottom: 1px solid #000; 
+  line-height: 0.1em;
+  margin: 20px 0 20px;
+  padding: 0,0.5em;
+  font-family: 'Ubuntu Mono', monospace;
+} 
+h2 span { 
+  background:#fff; 
+  padding:0 10px; 
+}
+.card{
+  margin-bottom: 1px;
+  border-radius: 10px;
+  background-color: #eff3c6;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.card-text{
+  color: #000;
+}
+.card img{
+  height: 300px;
+  width: 413px;
+  border-radius: 10px 10px 0 0;
+}
+.card-body{
+  padding: 1rem;
+  text-align: left;
+} 
+
+/* section-5 */
+
+#ico{
+  margin-bottom: 50px;
+}
+#caro img{
+  width: 402px;
+}
+#caro a{
+  text-decoration: none;
+}
+#indi{
+  background-color:#eff3c6;
+}
+
+.carousel-indicators .active{
+  background-color:#000
+}
+
+.carousel-indicators {
+  bottom: -50px;
+}
+
+/* footer */
+.foot{
+  margin-top: 50px;
+  background-color: #ef8172;
+ 
+}
+.foot p{
+  color: #fff;
+}
+.list-inlin{
+  color: #fff;
+  size: 60px;
+}
+
+.social:hover{
+    cursor:pointer;
+    color: #00005c;
+}
+.social1:hover{
+  cursor:pointer;
+  color: #08d9d6;
+}
+.social2:hover{
+  cursor:pointer;
+  color: #d72323;
+}
+
+
+  
+
+
+
+
+
+
+
+
+
