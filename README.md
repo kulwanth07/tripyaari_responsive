@@ -1,0 +1,1 @@
+# tripyaari_responsive
